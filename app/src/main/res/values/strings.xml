@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CarraceGame</string>
+    <string name="score_0">Score : 0</string>
+    <string name="start">START</string>
+    <string name="high_score">High Score : </string>
+    <string name="gamename">Trafic Racing</string>
+    <string name="play">Lets\' s play</string>
+    <string name="description">Powerd by Sliit Students Association</string>
+    <string name="date">2024.04.29 Mon</string>
+    <string name="pause">Pause</string>
+    <string name="end">EXIT</string>
+</resources>

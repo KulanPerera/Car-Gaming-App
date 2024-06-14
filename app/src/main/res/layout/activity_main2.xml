@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/wpaper"
+            android:contentDescription="TODO"
+            tools:ignore="ContentDescription,HardcodedText" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="413dp"
+        android:layout_height="239dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.814">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="408dp"
+            android:layout_height="119dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:contentDescription="TODO"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/icon1"
+                tools:ignore="ContentDescription,HardcodedText,SpeakableTextPresentCheck,DuplicateSpeakableTextCheck" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginEnd="40dp"
+                android:contentDescription="TODO"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/icon"
+                tools:ignore="ContentDescription,HardcodedText,SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginEnd="40dp"
+                android:contentDescription="TODO"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/icon5"
+                tools:ignore="ContentDescription,HardcodedText,SpeakableTextPresentCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="406dp"
+            android:layout_height="92dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:contentDescription="TODO"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/icon4"
+                tools:ignore="ContentDescription,HardcodedText,SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginEnd="40dp"
+                android:contentDescription="TODO"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/icon3"
+                tools:ignore="ContentDescription,HardcodedText,SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:contentDescription="TODO"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/icon2"
+                tools:ignore="ContentDescription,HardcodedText,SpeakableTextPresentCheck" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="15.30"
+        android:textColor="#FEFEFE"
+        android:textSize="70sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.114"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center|center_vertical"
+        android:inputType="text"
+        android:text="@string/date"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.229"
+        android:importantForAutofill="no"
+        tools:ignore="LabelFor" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
